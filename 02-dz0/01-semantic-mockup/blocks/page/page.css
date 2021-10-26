@@ -1,0 +1,14 @@
+.page {
+    max-width: 1240px;
+    min-width: 320px;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-self: center;
+
+    font-family: Arial, sans-serif;
+    color: white;
+}
