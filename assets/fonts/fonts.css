@@ -1,1 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 400;
+    src: url("./Inter-Regular.woff2") format("woff2"),
+    url("./Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 600;
+    src: url("./Inter-SemiBold.woff2") format("woff2"),
+    url("./Inter-SemiBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 700;
+    src: url("./Inter-Bold.woff2") format("woff2"),
+    url("./Inter-Bold.woff") format("woff");
+}
