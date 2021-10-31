@@ -1,0 +1,6 @@
+.container {
+    background: var(--white);
+
+    font-family: 'Inter', Helvetica, sans-serif;
+    color: var(--black);
+}

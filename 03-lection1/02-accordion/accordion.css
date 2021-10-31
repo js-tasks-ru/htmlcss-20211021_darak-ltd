@@ -1,11 +1,4 @@
 /* Стилизация аккордеона */
-.container {
-    background: var(--white);
-
-    font-family: 'Inter', Helvetica, sans-serif;
-    color: var(--black);
-}
-
 .accordion {
     width: 730px;
 
@@ -13,12 +6,15 @@
 
     box-sizing: border-box;
 
-    margin: 8px auto;
     padding: 24px 48px 24px 32px;
 
     border: 1px solid var(--grey-3);
     border-radius: 8px;
     cursor: pointer;
+}
+
+.accordion_pos{
+    margin: 8px auto;
 }
 
 .accordion[open] {
