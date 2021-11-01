@@ -1,5 +1,5 @@
 .footer {
-    padding: 72px 383px 136px 417px;
+    margin: 71px auto 136px;
 
     display: flex;
     flex-direction: column;
@@ -19,6 +19,7 @@
 }
 
 .footer__paragraph {
+    max-width: 640px;
     margin: 0 auto;
 
     font-weight: 400;

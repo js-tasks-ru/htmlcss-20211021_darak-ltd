@@ -1,8 +1,18 @@
 .header {
-    margin: 24px 165px 0;
+    margin: 24px 0 77px;
 
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.header__title {
+    font-family: "Inter", 'Helvetica', serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
 }
