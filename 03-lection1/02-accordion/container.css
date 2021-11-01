@@ -4,3 +4,7 @@
     font-family: 'Inter', Helvetica, sans-serif;
     color: var(--black);
 }
+
+.container__accordion {
+    margin: 8px auto;
+}

@@ -13,10 +13,6 @@
     cursor: pointer;
 }
 
-.accordion_pos{
-    margin: 8px auto;
-}
-
 .accordion[open] {
     padding-bottom: 32px;
 }
