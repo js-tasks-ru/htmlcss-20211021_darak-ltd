@@ -1,0 +1,14 @@
+.container {
+    max-width: 730px;
+    box-sizing: border-box;
+
+    margin: 0 auto;
+    background: var(--white);
+
+    font-family: 'Inter', Helvetica, sans-serif;
+    color: var(--black);
+}
+
+.container__accordion {
+    margin: 8px auto;
+}
