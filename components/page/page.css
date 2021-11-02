@@ -1,5 +1,4 @@
 .page {
-    margin: 0;
     background: var(--white);
     font-family: 'Roboto', Helvetica, sans-serif;
     color: var(--black)
@@ -8,7 +7,6 @@
 .page__container {
     width: 100%;
     min-width: 375px;
-    height: 100vh;
 
     margin: 0 auto;
     padding: 25px 0 136px;
