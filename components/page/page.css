@@ -1,20 +1,32 @@
 .page {
+    margin: 0;
+    background: var(--white);
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color: var(--black)
+}
+
+.page__container {
     width: 100%;
-    max-width: 1440px;
     min-width: 375px;
     height: 100vh;
 
     margin: 0 auto;
+    padding: 25px 0 136px;
 
     display: flex;
     flex-direction: column;
-
-    font-family: 'Roboto', Helvetica, sans-serif;
 }
 
-.page__container {
-    max-width: 1150px;
-
+.page__header {
+    width: 100%;
+    max-width: 1110px;
     margin: 0 auto;
-    padding: 20px;
+    box-sizing: border-box;
+}
+
+.page__footer {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
