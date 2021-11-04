@@ -1,0 +1,26 @@
+.header {
+    font-family: "Inter", Helvetica, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+/*.header__container {*/
+/*    max-width: 1110px;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+
+.header__title {
+    margin: 40px 0 77px;
+
+    font-family: "Inter", 'Helvetica', serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: 0;
+    text-align: left;
+}
