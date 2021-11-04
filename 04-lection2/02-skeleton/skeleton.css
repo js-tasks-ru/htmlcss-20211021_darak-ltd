@@ -21,6 +21,7 @@
 }
 
 .skeleton__avatar {
+    flex-shrink: 1;
     --size: 64px;
     width: var(--size);
     height: var(--size);
@@ -32,15 +33,16 @@
 }
 
 .skeleton__wrapper {
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 8px;
+    flex-grow: 1;
 }
 
 .skeleton__field {
-    width: 172px;
     height: 20px;
 
     background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
@@ -51,17 +53,17 @@
 }
 
 .skeleton__field_xs {
-    width: 172px;
+    width: 38%;
 }
 
 .skeleton__field_s {
-    width: 257px;
+    width: 56%;
 }
 
 .skeleton__field_l {
-    width: 475px;
+    width: 90%;
 }
 
 .skeleton__field_xl {
-    width: 515px;
+    width: 96%;
 }
