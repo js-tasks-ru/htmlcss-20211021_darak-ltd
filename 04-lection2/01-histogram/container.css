@@ -2,9 +2,10 @@
     margin: 0 auto;
 
     padding: 20px;
-}
-
-.container__histogram {
-    width: 354px;
     box-sizing: border-box;
 }
+
+/*.container__histogram {*/
+/*    width: 354px;*/
+/*    box-sizing: border-box;*/
+/*}*/

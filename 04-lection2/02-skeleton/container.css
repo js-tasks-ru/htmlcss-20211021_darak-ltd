@@ -2,9 +2,10 @@
     margin: 0 auto;
 
     padding: 20px;
-}
-
-.container__skeleton {
-    width: 579px;
     box-sizing: border-box;
 }
+
+/*.container__skeleton {*/
+/*    width: 579px;*/
+/*    box-sizing: border-box;*/
+/*}*/
