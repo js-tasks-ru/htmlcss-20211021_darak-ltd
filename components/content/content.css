@@ -11,16 +11,19 @@
     margin: 0 auto;
     padding: 68px 0 92px;
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
 
     gap: 30px;
 }
 
 .content__card {
     height: 367px;
-    flex-basis: calc(100% / 3 - 60px / 3);
+    /*flex-basis: calc(100% / 3 - 60px / 3);*/
 }
