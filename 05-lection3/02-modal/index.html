@@ -7,9 +7,20 @@
         <link rel="stylesheet" href="./form.css">
         <link rel="stylesheet" href="./button.css">
         <title>Modal</title>
+        <style>
+            .container {
+                max-width: 1110px;
+                margin: 0 auto;
+                padding: 30px;
+                text-align: center;
+            }
+            .container__modal {
+                display: inline-block;
+            }
+        </style>
     </head>
-    <body>
-        <div class="modal">
+    <body class="container">
+        <div class="modal container__modal">
             <form
               class="form modal__window"
               name="userForm"
