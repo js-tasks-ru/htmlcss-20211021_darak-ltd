@@ -4,9 +4,50 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./modal.css">
+        <link rel="stylesheet" href="./form.css">
+        <link rel="stylesheet" href="./button.css">
         <title>Modal</title>
     </head>
     <body>
+        <div class="modal">
+            <form
+              class="form modal__window"
+              name="userForm"
+              id="user-form"
+              autocomplete="off"
+            >
+                <fieldset class="form__field">
+                    <div class="form__input">
+                        <label class="form__input-title" for="user-name">Name</label>
+                        <input
+                          type="text"
+                          class="form__input-textfield"
+                          id="user-name"
+                          name="userName"
+                          placeholder="Placeholder"
+                          required
+                          minlength="2"
+                          maxlength="50"
+                        >
+                    </div>
+                    <div class="form__input">
+                        <label class="form__input-title" for="user-email">Email</label>
+                        <input
+                          type="email"
+                          class="form__input-textfield"
+                          id="user-email"
+                          name="userName"
+                          placeholder="Placeholder"
+                          required
+                          minlength="2"
+                          maxlength="50"
+                        >
+                    </div>
+                </fieldset>
+                <button class="button button_primary">Submit</button>
+            </form>
+        </div>
     </body>
-    <script src="./index.js"></script> 
+    <script src="./index.js"></script>
 </html>
+

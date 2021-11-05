@@ -17,12 +17,17 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
     --gray-5: #90A0B7;
+    --gray-6: rgba(196, 196, 196, .5);
+    --gray-3-0_2: rgba(221, 226, 229, .2);
 
     --error: var(--red);
     --success: var(--blue);
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --modal-background: var(--gray-6);
+    --form-text: var(--grey-3);
 }
 
 * {
