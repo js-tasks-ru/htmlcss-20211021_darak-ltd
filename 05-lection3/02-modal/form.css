@@ -1,0 +1,63 @@
+/*.form {*/
+/*    width: 100%;*/
+/*    display: grid;*/
+/*    grid-template-rows: auto;*/
+/*    row-gap: 24px;*/
+
+/*    box-sizing: border-box;*/
+/*    padding: 32px 40px 40px;*/
+
+/*    background: var(--white);*/
+/*    border-radius: 8px;*/
+
+/*    font-family: "Inter", Helvetica, serif;*/
+/*    font-style: normal;*/
+/*}*/
+
+/*.form__field {*/
+/*    width: 100%;*/
+/*    margin: 0 auto;*/
+/*    padding: 0;*/
+/*    border: none;*/
+
+/*    display: grid;*/
+/*    grid-template-rows: auto;*/
+/*    row-gap: 16px;*/
+/*}*/
+
+/*.form__input {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: flex-start;*/
+/*}*/
+
+/*.form__input-title {*/
+/*    margin: 0 auto 5px 0;*/
+
+/*    font-weight: 500;*/
+/*    font-size: 12px;*/
+/*    line-height: 18px;*/
+/*    letter-spacing: 0.04em;*/
+/*    text-transform: uppercase;*/
+/*    color: var(--form-text);*/
+/*}*/
+
+/*.form__input-textfield {*/
+/*    width: 100%;*/
+
+/*    padding: 17px 24px;*/
+
+/*    border: 1px solid var(--grey-2);*/
+/*    box-sizing: border-box;*/
+/*    border-radius: 8px;*/
+
+/*    font-weight: 400;*/
+/*    font-size: 20px;*/
+/*    line-height: 26px;*/
+/*    text-align: left;*/
+/*    color: var(--grey-3);*/
+/*}*/
+
+/*.form__input-textfield::placeholder {*/
+/*    color: var(--grey-3);*/
+/*}*/
