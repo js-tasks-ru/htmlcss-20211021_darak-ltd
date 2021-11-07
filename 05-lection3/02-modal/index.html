@@ -15,17 +15,27 @@
                 padding: 30px;
                 text-align: center;
                 position: relative;
-            }
-            .container__modal {
-                /*display: inline-block;*/
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
         </style>
     </head>
     <body class="container">
-        <div class="modal container__modal">
-            <button class="button button_primary">Open modal</button>-->
+        <button id="modal-open" class="button button_primary">Open modal</button>
+        <div id="modal" class="modal">
             <div class="modal__window">
-
+                <img id="modal-close" class="modal__icon-close" src="../../assets/images/icon_close.svg" alt="Close">
+                <h3 class="modal__title">Modal title</h3>
+                <p class="modal__text">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                    Velit officia consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud amet.
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                    Velit officia consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud amet.
+                </p>
             </div>
 <!--            <form-->
 <!--              class="form modal__window"-->
