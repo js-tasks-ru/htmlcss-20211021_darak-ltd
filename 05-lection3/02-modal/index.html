@@ -10,53 +10,59 @@
         <style>
             .container {
                 max-width: 1110px;
+                height: 100vh;
                 margin: 0 auto;
                 padding: 30px;
                 text-align: center;
+                position: relative;
             }
             .container__modal {
-                display: inline-block;
+                /*display: inline-block;*/
             }
         </style>
     </head>
     <body class="container">
         <div class="modal container__modal">
-            <form
-              class="form modal__window"
-              name="userForm"
-              id="user-form"
-              autocomplete="off"
-            >
-                <fieldset class="form__field">
-                    <div class="form__input">
-                        <label class="form__input-title" for="user-name">Name</label>
-                        <input
-                          type="text"
-                          class="form__input-textfield"
-                          id="user-name"
-                          name="userName"
-                          placeholder="Placeholder"
-                          required
-                          minlength="2"
-                          maxlength="50"
-                        >
-                    </div>
-                    <div class="form__input">
-                        <label class="form__input-title" for="user-email">Email</label>
-                        <input
-                          type="email"
-                          class="form__input-textfield"
-                          id="user-email"
-                          name="userName"
-                          placeholder="Placeholder"
-                          required
-                          minlength="2"
-                          maxlength="50"
-                        >
-                    </div>
-                </fieldset>
-                <button class="button button_primary">Submit</button>
-            </form>
+            <button class="button button_primary">Open modal</button>-->
+            <div class="modal__window">
+
+            </div>
+<!--            <form-->
+<!--              class="form modal__window"-->
+<!--              name="userForm"-->
+<!--              id="user-form"-->
+<!--              autocomplete="off"-->
+<!--            >-->
+<!--                <fieldset class="form__field">-->
+<!--                    <div class="form__input">-->
+<!--                        <label class="form__input-title" for="user-name">Name</label>-->
+<!--                        <input-->
+<!--                          type="text"-->
+<!--                          class="form__input-textfield"-->
+<!--                          id="user-name"-->
+<!--                          name="userName"-->
+<!--                          placeholder="Placeholder"-->
+<!--                          required-->
+<!--                          minlength="2"-->
+<!--                          maxlength="50"-->
+<!--                        >-->
+<!--                    </div>-->
+<!--                    <div class="form__input">-->
+<!--                        <label class="form__input-title" for="user-email">Email</label>-->
+<!--                        <input-->
+<!--                          type="email"-->
+<!--                          class="form__input-textfield"-->
+<!--                          id="user-email"-->
+<!--                          name="userName"-->
+<!--                          placeholder="Placeholder"-->
+<!--                          required-->
+<!--                          minlength="2"-->
+<!--                          maxlength="50"-->
+<!--                        >-->
+<!--                    </div>-->
+<!--                </fieldset>-->
+<!--                <button class="button button_primary">Submit</button>-->
+<!--            </form>-->
         </div>
     </body>
     <script src="./index.js"></script>

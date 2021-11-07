@@ -1,0 +1,30 @@
+.page {
+    background: var(--white);
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color: var(--black)
+}
+
+.page__container {
+    width: 100%;
+    min-width: 375px;
+
+    margin: 0 auto;
+    padding: 25px 0 136px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.page__header {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.page__footer {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
