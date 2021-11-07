@@ -8,6 +8,7 @@
     --purple-1: rgba(160, 177, 245, .2);
     --purple-dark: #5028C6;
     --blue: #374FC7;
+    --blue-1: #4263EB;
     --blue-dark:#2342C0;
     --blue-1: #4263EB;
     --blue-2: #334D6E;
@@ -19,6 +20,7 @@
     --grey-5: #F9FAFC;
     --gray-6: rgba(196, 196, 196, .5);
     --gray-7: #90A0B7;
+
 
     --error: var(--red);
     --success: var(--blue);

@@ -1,0 +1,12 @@
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/*.container__histogram {*/
+/*    width: 354px;*/
+/*    box-sizing: border-box;*/
+/*}*/
