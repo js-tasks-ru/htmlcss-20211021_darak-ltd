@@ -4,9 +4,77 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./modal.css">
+        <link rel="stylesheet" href="./form.css">
+        <link rel="stylesheet" href="./button.css">
         <title>Modal</title>
+        <style>
+            .container {
+                max-width: 1110px;
+                height: 100vh;
+                margin: 0 auto;
+                padding: 30px;
+                text-align: center;
+                position: relative;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
     </head>
-    <body>
+    <body class="container">
+        <button id="modal-open" class="button button_primary">Open modal</button>
+        <div id="modal" class="modal">
+            <div class="modal__window">
+                <img id="modal-close" class="modal__icon-close" src="../../assets/images/icon_close.svg" alt="Close">
+                <h3 class="modal__title">Modal title</h3>
+                <p class="modal__text">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                    Velit officia consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud amet.
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                    Velit officia consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud amet.
+                </p>
+            </div>
+<!--            <form-->
+<!--              class="form modal__window"-->
+<!--              name="userForm"-->
+<!--              id="user-form"-->
+<!--              autocomplete="off"-->
+<!--            >-->
+<!--                <fieldset class="form__field">-->
+<!--                    <div class="form__input">-->
+<!--                        <label class="form__input-title" for="user-name">Name</label>-->
+<!--                        <input-->
+<!--                          type="text"-->
+<!--                          class="form__input-textfield"-->
+<!--                          id="user-name"-->
+<!--                          name="userName"-->
+<!--                          placeholder="Placeholder"-->
+<!--                          required-->
+<!--                          minlength="2"-->
+<!--                          maxlength="50"-->
+<!--                        >-->
+<!--                    </div>-->
+<!--                    <div class="form__input">-->
+<!--                        <label class="form__input-title" for="user-email">Email</label>-->
+<!--                        <input-->
+<!--                          type="email"-->
+<!--                          class="form__input-textfield"-->
+<!--                          id="user-email"-->
+<!--                          name="userName"-->
+<!--                          placeholder="Placeholder"-->
+<!--                          required-->
+<!--                          minlength="2"-->
+<!--                          maxlength="50"-->
+<!--                        >-->
+<!--                    </div>-->
+<!--                </fieldset>-->
+<!--                <button class="button button_primary">Submit</button>-->
+<!--            </form>-->
+        </div>
     </body>
-    <script src="./index.js"></script> 
+    <script src="./index.js"></script>
 </html>
+
