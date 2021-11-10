@@ -10,6 +10,10 @@
     color: var(--black);
 }
 
+.footer_template {
+    background: var(--grey-5);
+}
+
 .footer__title {
     margin: 0 auto 32px;
 
@@ -27,4 +31,17 @@
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+}
+
+.footer__title_template {
+    margin: 92px auto 56px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: var(--grey-3);
 }

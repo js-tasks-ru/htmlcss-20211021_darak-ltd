@@ -76,5 +76,5 @@
 
 .histogram__chart-column {
     background: var(--blue-1);
-    flex: 1 0 9px;
+    flex: 1 0 auto;
 }

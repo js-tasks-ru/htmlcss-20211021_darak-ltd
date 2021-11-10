@@ -16,3 +16,9 @@
 
     color: var(--grey-4);
 }
+
+.component__histogram {
+    width: 300px;
+
+    box-sizing: border-box;
+}
