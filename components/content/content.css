@@ -4,6 +4,19 @@
     background: var(--grey-5);
 }
 
+.content_template {
+    max-width: 1110px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 32px 0 0;
+
+    box-sizing: border-box;
+
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 56px;
+}
+
 .content__card-list {
     width: 100%;
     max-width: 1110px;

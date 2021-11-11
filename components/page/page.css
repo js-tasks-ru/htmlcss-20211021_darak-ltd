@@ -7,12 +7,22 @@
 .page__container {
     width: 100%;
     min-width: 375px;
+}
 
+.page__container_main {
     margin: 0 auto;
     padding: 25px 0 136px;
 
     display: flex;
     flex-direction: column;
+}
+
+.page__container_template {
+    height: 100vh;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-rows: 85px auto 166px;
 }
 
 .page__header {
