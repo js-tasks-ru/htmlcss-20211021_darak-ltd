@@ -3,10 +3,24 @@
     height: 102px;
 }
 
+/* версия для вставки картинки через тег img*/
+/*.avatar__image {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+
+/*    border-radius: 50%;*/
+/*    object-fit: contain;*/
+/*}*/
+
+/* версия для вставки через background*/
 .avatar__image {
-    width: 100%;
-    height: 100%;
+    width: 102px;
+    height: 102px;
 
     border-radius: 50%;
-    object-fit: contain;
+    overflow: hidden;
+    background-image: url("./public/avatar-200.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

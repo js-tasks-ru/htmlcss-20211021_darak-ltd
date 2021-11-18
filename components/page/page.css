@@ -38,3 +38,9 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 375px) {
+    .page__container_main {
+        padding: 17px 0 0;
+    }
+}
