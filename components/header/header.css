@@ -18,3 +18,20 @@
     letter-spacing: 0;
     text-align: left;
 }
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 0 16px;
+    }
+
+    .header__title {
+        margin-top: 49px;
+        margin-bottom: 69px;
+
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+
+        color: var(--grey-4);
+    }
+}

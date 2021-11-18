@@ -5,9 +5,13 @@
     border-radius: 12px;
 
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
 
     padding-bottom: 32px;
+}
+
+.card__elem {
+    height: 100%;
 }
 
 .card__title {
@@ -23,7 +27,6 @@
 
 .card__subtitle {
     margin: 0 auto;
-    order: -1;
 
     font-size: 16px;
     font-style: normal;
@@ -31,4 +34,34 @@
     line-height: 19px;
     letter-spacing: 0;
     text-align: center;
+}
+
+@media screen and  (max-width: 768px) {
+    .card {
+        border-radius: 8px;
+        padding-bottom: 8px;
+    }
+
+    .card__title {
+        overflow: hidden;
+
+        margin-top: 13px;
+        padding: 0 8px;
+
+        white-space: nowrap;
+        text-overflow: ellipsis;
+
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .card__subtitle  {
+        font-size: 14px;
+        line-height: 22px;
+        color: var(--grey-3);
+    }
+
+    .card__elem {
+        height: 164px;
+    }
 }

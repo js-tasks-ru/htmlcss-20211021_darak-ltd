@@ -20,9 +20,10 @@
 .content__card-list {
     width: 100%;
     max-width: 1110px;
+    box-sizing: border-box;
 
     margin: 0 auto;
-    padding: 68px 0 92px;
+    padding: 68px 16px 92px;
 
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -39,4 +40,16 @@
 .content__card {
     height: 367px;
     /*flex-basis: calc(100% / 3 - 60px / 3);*/
+}
+
+@media screen and  (max-width: 768px) {
+    .content__card-list {
+        padding: 24px 15px;
+        grid-template-columns: repeat(auto-fill, minmax(164px, 1fr));
+        gap: 16px;
+    }
+
+    .content__card {
+        height: 100%;
+    }
 }
