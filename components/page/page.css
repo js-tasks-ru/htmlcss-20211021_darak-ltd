@@ -20,9 +20,12 @@
 .page__container_template {
     height: 100vh;
     margin: 0 auto;
+    padding: 25px 0 0;
 
     display: grid;
-    grid-template-rows: 85px auto 166px;
+    grid-template-rows: auto auto 166px;
+
+    background-color: var(--grey-5);
 }
 
 .page__header {
@@ -39,9 +42,17 @@
     box-sizing: border-box;
 }
 
+
 @media screen and (max-width: 768px) {
     .page__container_main {
         padding-top: 17px;
         padding-bottom: 0;
+    }
+
+    .page__container_template {
+        padding-top: 17px;
+        padding-bottom: 15px;
+
+        grid-template-rows: 64px auto;
     }
 }

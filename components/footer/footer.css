@@ -50,4 +50,8 @@
     .footer {
         display: none;
     }
+
+    .footer_template {
+        display: none;
+    }
 }
