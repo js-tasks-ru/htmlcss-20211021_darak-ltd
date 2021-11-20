@@ -41,16 +41,16 @@
     /*flex-basis: calc(100% / 3 - 60px / 3);*/
 }
 
-@media screen and (max-width: 376px) {
-    .content__card-list {
-        padding: 26px 16px;
-        box-sizing: border-box;
-        grid-template-columns: repeat(2, minmax(164px, 1fr));
-        row-gap: 23px;
-        column-gap: 16px;
-    }
+/*@media screen and (max-width: 376px) {*/
+/*    .content__card-list {*/
+/*        padding: 26px 16px;*/
+/*        box-sizing: border-box;*/
+/*        grid-template-columns: repeat(2, minmax(164px, 1fr));*/
+/*        row-gap: 23px;*/
+/*        column-gap: 16px;*/
+/*    }*/
 
-    .content__card {
-        height: 210px;
-    }
-}
+/*    .content__card {*/
+/*        height: 210px;*/
+/*    }*/
+/*}*/
