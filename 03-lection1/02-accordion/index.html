@@ -2,41 +2,58 @@
 <!-- Страница с аккордеоном -->
 <html lang="ru">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../../assets/css/normalize.css">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./container.css">
         <link rel="stylesheet" href="./accordion.css">
+        <title>Accordion</title>
     </head>
     <body class="container">
-        <details  class="accordion container__accordion">
-            <summary class="accordion__title">
-                Accordion item 1
-            </summary>
-            <p class="accordion__text">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
-            </p>
-        </details>
-        <details  class="accordion container__accordion">
-            <summary class="accordion__title">
-                Accordion item 2
-            </summary>
-            <p class="accordion__text">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
-            </p>
-        </details>
-        <details  class="accordion container__accordion">
-            <summary class="accordion__title">
-                Accordion item 3
-            </summary>
-            <p class="accordion__text">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
-            </p>
-        </details>
+        <div class="container__accordion">
+            <svg class="accordion__icon-arrow">
+                <use href="../../assets/images/icons_sprite.svg#icon_arrow"/>
+            </svg>
+            <details  class="accordion container__accordion">
+                <summary class="accordion__title">
+                    Accordion item 1
+                </summary>
+                <p class="accordion__text">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                    Velit officia consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud amet.
+                </p>
+            </details>
+        </div>
+        <div class="container__accordion">
+            <svg class="accordion__icon-arrow">
+                <use href="../../assets/images/icons_sprite.svg#icon_arrow"/>
+            </svg>
+            <details  class="accordion container__accordion">
+                <summary class="accordion__title">
+                    Accordion item 2
+                </summary>
+                <p class="accordion__text">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                    Velit officia consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud amet.
+                </p>
+            </details>
+        </div>
+        <div class="container__accordion">
+            <svg class="accordion__icon-arrow">
+                <use href="../../assets/images/icons_sprite.svg#icon_arrow"/>
+            </svg>
+            <details  class="accordion container__accordion">
+                <summary class="accordion__title">
+                    Accordion item 3
+                </summary>
+                <p class="accordion__text">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                    Velit officia consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud amet.
+                </p>
+            </details>
+        </div>
     </body>
 </html>

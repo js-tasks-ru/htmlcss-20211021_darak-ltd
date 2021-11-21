@@ -11,4 +11,5 @@
 
 .container__accordion {
     margin: 8px auto;
+    position: relative;
 }
