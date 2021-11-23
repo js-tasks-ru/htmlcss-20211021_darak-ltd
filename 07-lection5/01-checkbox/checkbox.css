@@ -1,5 +1,6 @@
 .checkbox {
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .checkbox__input {
