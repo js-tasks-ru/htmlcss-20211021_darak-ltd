@@ -68,3 +68,8 @@
     background: var(--grey-2);
     border-color: var(--grey-2);
 }
+
+.checkbox__input:disabled ~
+.checkbox__container .checkbox__title {
+    color: var(--grey-2);
+}
