@@ -2,6 +2,7 @@
 <!-- Страница с модалкой -->
 <html lang="ru">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./modal.css">
         <link rel="stylesheet" href="./form.css">
@@ -26,7 +27,9 @@
         <button id="modal-open" class="button button_primary">Open modal</button>
         <div id="modal" class="modal">
             <div class="modal__window">
-                <img id="modal-close" class="modal__icon-close" src="../../assets/images/icon_close.svg" alt="Close">
+                <svg class="modal__icon-close">
+                    <use xlink:href="../../assets/images/icons_sprite.svg#icon_close"/>
+                </svg>
                 <h3 class="modal__title">Modal title</h3>
                 <p class="modal__text">
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.

@@ -1,7 +1,5 @@
 /* Стилизация аккордеона */
 .accordion {
-    /*width: 730px;*/
-
     position: relative;
 
     box-sizing: border-box;
@@ -37,4 +35,15 @@
     line-height: 24px;
     text-align: left;
     color: var(--grey-4);
+}
+
+.accordion__icon-arrow {
+    position: absolute;
+    top:32px;
+    right: 32px;
+    z-index: 2;
+    width: 16px;
+    height: 8px;
+    color: var(--black);
+    cursor: pointer;
 }
