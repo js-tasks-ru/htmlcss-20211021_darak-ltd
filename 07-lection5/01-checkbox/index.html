@@ -2,10 +2,30 @@
 <!-- Страница чекбокса -->
 <html lang="ru">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./checkbox.css">
+        <style>
+            .container {
+                max-width: 1110px;
+                margin: 0 auto;
+                padding: 20px 20px;
+                box-sizing: border-box;
+            }
+        </style>
+        <title>CheckBox</title>
     </head>
-    <body>
-
+    <body class="container">
+        <label class="checkbox">
+            <input type="checkbox" class="checkbox__input">
+            <div class="checkbox__container">
+                <div class="checkbox__control">
+                    <svg class="checkbox__icon">
+                        <use xlink:href="../../assets/images/icons_sprite.svg#icon_checkbox-check"/>
+                    </svg>
+                </div>
+                <div class="checkbox__title">CheckBox</div>
+            </div>
+        </label>
     </body>
 </html>
