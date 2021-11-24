@@ -14,12 +14,15 @@
                 display: flex;
                 flex-direction: column;
             }
+            .container__checkbox {
+                margin-bottom: 16px;
+            }
         </style>
         <title>CheckBox</title>
     </head>
     <body class="container">
         <h3 class="checkbox__label">Checkbox</h3>
-        <label class="checkbox">
+        <label class="checkbox container__checkbox">
             <input type="checkbox" class="checkbox__input" name="checkbox" value="default">
             <div class="checkbox__container">
                 <div class="checkbox__control">
@@ -30,7 +33,7 @@
                 <div class="checkbox__title">Default</div>
             </div>
         </label>
-        <label class="checkbox">
+        <label class="checkbox container__checkbox">
             <input type="checkbox" class="checkbox__input" name="checkbox" value="checked" checked>
             <div class="checkbox__container">
                 <div class="checkbox__control">
@@ -41,7 +44,7 @@
                 <div class="checkbox__title">Checked</div>
             </div>
         </label>
-        <label class="checkbox">
+        <label class="checkbox container__checkbox">
             <input type="checkbox" class="checkbox__input" name="checkbox" value="disabled" disabled>
             <div class="checkbox__container">
                 <div class="checkbox__control">

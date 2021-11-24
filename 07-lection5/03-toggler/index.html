@@ -15,11 +15,14 @@
                 display: flex;
                 flex-direction: column;
             }
+            .container__toggler {
+                margin-bottom: 16px;
+            }
         </style>
     </head>
     <body class="container">
         <h3 class="toggler__label">Toggle Button</h3>
-        <label class="toggler">
+        <label class="toggler container__toggler">
             <input type="checkbox" class="toggler__input" name="toggler" value="off">
             <div class="toggler__container">
                 <div class="toggler__control">
@@ -28,7 +31,7 @@
                 <p class="toggler__title">Off</p>
             </div>
         </label>
-        <label class="toggler">
+        <label class="toggler container__toggler">
             <input type="checkbox" class="toggler__input" name="toggler" value="on" checked>
             <div class="toggler__container">
                 <div class="toggler__control">
@@ -37,7 +40,7 @@
                 <p class="toggler__title">On</p>
             </div>
         </label>
-        <label class="toggler">
+        <label class="toggler container__toggler">
             <input type="checkbox" class="toggler__input" name="toggler" value="disabled" disabled>
             <div class="toggler__container">
                 <div class="toggler__control">
