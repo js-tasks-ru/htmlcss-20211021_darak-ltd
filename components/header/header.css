@@ -5,13 +5,12 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-shrink: 0;
-    /*padding: 0 16px;*/
 }
 
 .header__lead {
     width: 100%;
     height: 34px;
-    margin: 0 auto;
+    margin: 0 auto 63px;
 
     display: flex;
     flex-direction: row;
@@ -64,7 +63,7 @@
         color: var(--grey-4);
     }
 
-    .header_template_pos {
+    .header__lead {
         margin-bottom: 17px;
     }
 }
