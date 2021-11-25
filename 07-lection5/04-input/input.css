@@ -54,10 +54,10 @@
     right: 16px;
 }
 
-.input__icon_success {
-    display: block;
-    color: var(--success);
-}
+/*.input__icon_success {*/
+/*    display: block;*/
+/*    color: var(--success);*/
+/*}*/
 
 .input__icon_error {
     display: block;
@@ -87,6 +87,17 @@
     outline: 1px solid var(--error);
 }
 
-.input__field_success:focus {
+/*.input__field_success:focus {*/
+/*    outline: none;*/
+/*}*/
+
+.input_success ~
+.input__icon {
+    display: block;
+    color: var(--success);
+}
+
+.input_success:focus ~
+.input__field {
     outline: none;
 }
