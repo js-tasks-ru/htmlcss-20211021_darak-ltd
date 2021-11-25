@@ -46,8 +46,12 @@
     color: var(--grey-3);
 }
 
-@media screen and (max-width: 376px){
+@media screen and (max-width: 768px) {
     .footer {
+        display: none;
+    }
+
+    .footer_template {
         display: none;
     }
 }
