@@ -2,21 +2,27 @@
     position: fixed;
     top:0;
     left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(73, 80, 87, .4);
+    transform: translateX(-100vw);
+    transition: transform 200ms ease-in-out 100ms;
+    font-family: "Inter", Helvetica, serif;
+    font-style: normal;
+}
+
+.burger-menu__window {
     width: 375px;
     height: 100vh;
     margin-top: 64px;
     padding: 16px;
     box-sizing: border-box;
     background-color: var(--grey-5);
-    transform: translateX(-100vw);
-    transition: transform 200ms ease-in-out .4s;
 
     display: grid;
     grid-template-rows: repeat(3, min-content);
-
-    font-family: "Inter", Helvetica, serif;
-    font-style: normal;
 }
+
 
 .burger-menu__toggler {
     display: inline-block;
