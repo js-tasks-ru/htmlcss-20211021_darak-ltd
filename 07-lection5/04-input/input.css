@@ -40,10 +40,6 @@
     color: var(--grey-4);
 }
 
-.input__field_error {
-    border-color: var(--error);
-}
-
 .input__icon {
     display: none;
     --size: 20px;
@@ -52,16 +48,6 @@
     position: absolute;
     top: 16px;
     right: 16px;
-}
-
-/*.input__icon_success {*/
-/*    display: block;*/
-/*    color: var(--success);*/
-/*}*/
-
-.input__icon_error {
-    display: block;
-    color: var(--error);
 }
 
 .input__field::placeholder {
@@ -75,29 +61,31 @@
     color: var(--grey-2);
 }
 
-.input__field:focus {
+.input__field:focus::placeholder {
     color: var(--grey-4);
+}
 
+.input__field:focus {
     outline: 1px solid var(--blue);
-    /*box-shadow: 0 1px 1px rgba(51, 154, 240, 0.1);*/
-
+    box-shadow: 0 1px 1px rgba(51, 154, 240, 0.1);
 }
 
-.input__field_error:focus {
-    outline: 1px solid var(--error);
-}
-
-/*.input__field_success:focus {*/
-/*    outline: none;*/
-/*}*/
-
-.input_success ~
-.input__icon {
+.input_success .input__icon {
     display: block;
     color: var(--success);
 }
 
-.input_success:focus ~
-.input__field {
+.input_success .input__field:focus {
     outline: none;
+    color: var(--grey-4);
+}
+
+.input_error .input__icon {
+    display: block;
+    color: var(--error);
+}
+
+.input_error .input__field:focus {
+    outline-color: var(--error);
+    box-shadow: 0 1px 1px rgba(240, 61, 62, 0.1);
 }
