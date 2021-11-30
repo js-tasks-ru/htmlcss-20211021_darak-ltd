@@ -1,6 +1,6 @@
 .burger-menu {
     position: fixed;
-    top:0;
+    top:64px;
     left: 0;
     width: 100vw;
     height: 100vh;
@@ -14,7 +14,7 @@
 .burger-menu__window {
     width: 375px;
     height: 100vh;
-    margin-top: 64px;
+    margin:0;
     padding: 16px;
     box-sizing: border-box;
     background-color: var(--grey-5);
