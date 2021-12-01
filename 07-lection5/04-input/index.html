@@ -2,10 +2,53 @@
 <!-- Страница с полем ввода -->
 <html lang="ru">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./input.css">
+        <style>
+            .container {
+                max-width: 1110px;
+                margin: 0 auto;
+                padding: 20px 20px;
+                box-sizing: border-box;
+                display: grid;
+                grid-template-columns: repeat(2, 350px);
+                column-gap: 30px;
+                row-gap: 16px;
+            }
+        </style>
+        <title>Input</title>
     </head>
-    <body>
-
+    <body class="container">
+        <label class="input">
+            <h3 class="input__label">Label</h3>
+            <div class="input__field-container">
+                <input type="text" class="input__field" placeholder="Placeholder" required>
+            </div>
+        </label>
+        <label class="input">
+            <h3 class="input__label">Focus</h3>
+            <div class="input__field-container">
+                <input type="text" class="input__field" placeholder="Field Input" required>
+            </div>
+        </label>
+        <label class="input input_success">
+            <h3 class="input__label">Success</h3>
+            <div class="input__field-container">
+                <input type="text" class="input__field" placeholder="Success" required>
+                <svg class="input__icon">
+                    <use xlink:href="../../assets/images/icons_sprite.svg#icon_check-circle" />
+                </svg>
+            </div>
+        </label>
+        <label class="input input_error">
+            <h3 class="input__label">Error</h3>
+            <div class="input__field-container">
+                <input type="text" class="input__field" placeholder="Error" required>
+                <svg class="input__icon">
+                    <use xlink:href="../../assets/images/icons_sprite.svg#icon_alert-triangle" />
+                </svg>
+            </div>
+        </label>
     </body>
 </html>

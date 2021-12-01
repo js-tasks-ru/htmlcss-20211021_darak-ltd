@@ -2,10 +2,59 @@
 <!-- Страница чекбокса -->
 <html lang="ru">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./checkbox.css">
+        <style>
+            .container {
+                max-width: 1110px;
+                margin: 0 auto;
+                padding: 20px 20px;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+            }
+            .container__checkbox {
+                margin-bottom: 16px;
+            }
+        </style>
+        <title>CheckBox</title>
     </head>
-    <body>
+    <body class="container">
+        <h3 class="checkbox__label">Checkbox</h3>
+        <label class="checkbox container__checkbox">
+            <input type="checkbox" class="checkbox__input" name="checkbox" value="default">
+            <div class="checkbox__container">
+                <div class="checkbox__control">
+                    <svg class="checkbox__icon">
+                        <use xlink:href="../../assets/images/icons_sprite.svg#icon_checkbox-check"/>
+                    </svg>
+                </div>
+                <div class="checkbox__title">Default</div>
+            </div>
+        </label>
+        <label class="checkbox container__checkbox">
+            <input type="checkbox" class="checkbox__input" name="checkbox" value="checked" checked>
+            <div class="checkbox__container">
+                <div class="checkbox__control">
+                    <svg class="checkbox__icon">
+                        <use xlink:href="../../assets/images/icons_sprite.svg#icon_checkbox-check"/>
+                    </svg>
+                </div>
+                <div class="checkbox__title">Checked</div>
+            </div>
+        </label>
+        <label class="checkbox container__checkbox">
+            <input type="checkbox" class="checkbox__input" name="checkbox" value="disabled" disabled>
+            <div class="checkbox__container">
+                <div class="checkbox__control">
+                    <svg class="checkbox__icon">
+                        <use xlink:href="../../assets/images/icons_sprite.svg#icon_checkbox-check"/>
+                    </svg>
+                </div>
+                <div class="checkbox__title">Disabled</div>
+            </div>
+        </label>
 
     </body>
 </html>
