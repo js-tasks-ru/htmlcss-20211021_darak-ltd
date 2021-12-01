@@ -2,11 +2,14 @@
 <!-- Главная страница -->
 <html lang="ru">
     <head>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reusable Components</title>
         <link rel="stylesheet" href="./assets/css/normalize.css">
         <link rel="stylesheet" href="./assets/css/main.css">
         <link rel="stylesheet" href="./components/page/page.css">
         <link rel="stylesheet" href="./components/header/header.css">
+        <link rel="stylesheet" href="./components/burger-menu/burger-menu.css">
         <link rel="stylesheet" href="./components/logo/logo.css">
         <link rel="stylesheet" href="./components/content/content.css">
         <link rel="stylesheet" href="./components/card/card.css">
@@ -15,11 +18,19 @@
     <body class="page">
         <div class="page__container page__container_main">
             <header class="header page__header">
-        <div class="header__lead">
-            <a class="logo header__logo"></a>
-        </div>
-        <h1 class="header__title">Reusable component library</h1>
-    </header>
+                <div class="header__lead">
+<!--                    <label class="burger-menu">-->
+<!--                        <input type="checkbox" class="burger-menu__input">-->
+<!--                        <div class="burger-menu__wrapper">-->
+<!--                            <svg class="burger-menu__toggler">-->
+<!--                                <use xlink:href="../assets/images/icons-sprite.svg#icon_burger-menu"/>-->
+<!--                            </svg>-->
+<!--                        </div>-->
+<!--                    </label>-->
+                    <a class="logo header__logo"></a>
+                </div>
+                <h1 class="header__title">Reusable component library</h1>
+            </header>
             <main class="content">
                 <div class="content__card-list">
                     <div class="card content__card">
