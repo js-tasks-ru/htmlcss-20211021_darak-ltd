@@ -8,12 +8,14 @@
     }
 
     modalOpen.addEventListener('click', () => {
-        modal.style.display = 'block';
+        // modal.style.display = 'block';
+        modal.style.visibility = 'visible';
         document.body.overflow = 'hidden';
     });
 
     close.addEventListener('click', () => {
-        modal.style.display = 'none';
+        // modal.style.display = 'none';
+        modal.style.visibility = 'hidden';
         document.body.overflow = 'initial';
     });
 })();
