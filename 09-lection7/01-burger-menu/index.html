@@ -2,11 +2,73 @@
 <!-- Страница бургер-меню -->
 <html lang="ru">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Burger Menu</title>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./burger-menu.css">
+        <link rel="stylesheet" href="./toggler.css">
         <script defer src="./burger-menu.js"></script>
+        <style>
+            .container {
+                width: 100%;
+                height: 100vh;
+                margin: 0 auto;
+                box-sizing: border-box;
+                padding: 16px 12px;
+            }
+        </style>
     </head>
-    <body>
-
+    <body class="container">
+        <label class="burger-menu__toggler">
+            <input type="checkbox" class="burger-menu__toggler-input" name="burger-menu-toggler" value="off">
+            <div class="burger-menu__toggler-state">
+                <svg class="burger-menu__toggler-icon">
+                    <use xlink:href="../../assets/images/icons_sprite.svg#icon_burger-menu"/>
+                </svg>
+                <div class="burger-menu__toggler-icon-wrapper">
+                    <svg class="burger-menu__toggler-icon-close">
+                        <use xlink:href="../../assets/images/icons_sprite.svg#icon_close"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="burger-menu">
+                <div class="burger-menu__window">
+                    <div class="burger-menu__theme">
+                        <p class="burger-menu__theme-title">Dark mode</p>
+                        <label class="toggler burger-menu__theme-toggler">
+                            <input type="checkbox" class="toggler__input" name="theme-toggler" value="off">
+                            <div class="toggler__container">
+                                <div class="toggler__control">
+                                    <div class="toggler__state"></div>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="burger-menu__section">
+                        <h4 class="burger-menu__section-title">Elements</h4>
+                        <ul class="burger-menu__section-list">
+                            <li class="burger-menu__section-item">Avatar</li>
+                            <li class="burger-menu__section-item">Custom form elements</li>
+                            <li class="burger-menu__section-item">Button</li>
+                            <li class="burger-menu__section-item">Avatar</li>
+                            <li class="burger-menu__section-item">Custom form elements</li>
+                            <li class="burger-menu__section-item">Button</li>
+                        </ul>
+                    </div>
+                    <div class="burger-menu__section">
+                        <h4 class="burger-menu__section-title">Containers</h4>
+                        <ul class="burger-menu__section-list">
+                            <li class="burger-menu__section-item">Avatar</li>
+                            <li class="burger-menu__section-item">Custom form elements</li>
+                            <li class="burger-menu__section-item">Button</li>
+                            <li class="burger-menu__section-item">Avatar</li>
+                            <li class="burger-menu__section-item">Custom form elements</li>
+                            <li class="burger-menu__section-item">Button</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </label>
     </body>
 </html>
