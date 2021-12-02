@@ -27,7 +27,6 @@
     justify-content: flex-start;
     align-items: center;
     cursor: pointer;
-    position: relative;
 }
 
 .checkbox__control {
