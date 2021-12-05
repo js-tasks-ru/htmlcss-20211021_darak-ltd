@@ -41,6 +41,7 @@
     font-size: 20px;
     line-height: 26px;
     color: var(--grey-4);
+
     transition: all 400ms;
 }
 
@@ -71,6 +72,7 @@
 
 .input__field:focus {
     border: 1px solid var(--blue-1);
+
     box-shadow: 0 1px 1px rgba(51, 154, 240, 0.1);
 }
 
@@ -81,8 +83,10 @@
 
 .input_success .input__field:focus {
     outline: none;
+
     color: var(--success);
     border-color: var(--success);
+
 }
 
 .input_error .input__icon {
@@ -92,5 +96,6 @@
 
 .input_error .input__field:focus {
     border-color: var(--error);
+
     box-shadow: 0 1px 1px rgba(240, 61, 62, 0.1);
 }

@@ -74,6 +74,7 @@
 .toggler__container .toggler__state {
     left: unset;
     transform: translateX(24px);
+
     top: calc(50% - var(--size)/2);
     background: var(--white);
 }
