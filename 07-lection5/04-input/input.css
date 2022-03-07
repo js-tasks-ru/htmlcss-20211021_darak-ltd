@@ -16,6 +16,7 @@
     text-align: center;
     text-transform: uppercase;
     color: var(--grey-3);
+    touch-action: manipulation;
 }
 
 .input__field-container {
@@ -28,8 +29,10 @@
     height: 56px;
     background: var(--white);
     border: 1px solid var(--grey-2);
+    box-shadow: 0px 1px 1px rgba(51, 154, 240, 0.1);
     box-sizing: border-box;
     border-radius: 8px;
+    outline: none;
 
     padding-left: 24px;
     font-family: "Inter", Helvetica, serif;
@@ -38,6 +41,8 @@
     font-size: 20px;
     line-height: 26px;
     color: var(--grey-4);
+
+    transition: all 400ms;
 }
 
 .input__icon {
@@ -66,7 +71,8 @@
 }
 
 .input__field:focus {
-    outline: 1px solid var(--blue);
+    border: 1px solid var(--blue-1);
+
     box-shadow: 0 1px 1px rgba(51, 154, 240, 0.1);
 }
 
@@ -77,7 +83,10 @@
 
 .input_success .input__field:focus {
     outline: none;
-    color: var(--grey-4);
+
+    color: var(--success);
+    border-color: var(--success);
+
 }
 
 .input_error .input__icon {
@@ -86,6 +95,7 @@
 }
 
 .input_error .input__field:focus {
-    outline-color: var(--error);
+    border-color: var(--error);
+
     box-shadow: 0 1px 1px rgba(240, 61, 62, 0.1);
 }

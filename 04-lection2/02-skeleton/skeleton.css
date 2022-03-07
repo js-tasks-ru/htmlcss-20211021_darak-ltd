@@ -42,10 +42,13 @@
     flex-grow: 1;
 }
 
+.skeleton__field-gradient {
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+    animation: gradient 1.5s ease-in-out infinite;
+}
+
 .skeleton__field {
     height: 20px;
-
-    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
 }
 
 .skeleton__content-wrapper {
@@ -66,4 +69,35 @@
 
 .skeleton__field_xl {
     width: 96%;
+}
+
+@keyframes gradient {
+    0% {
+        background: linear-gradient(92.51deg, #DDE2E5 -94.44%, #E2E6E8 -52.47%, #F3F5F5 -34.48%, #E3E7EA -13.5%, #DDE2E5 12.52%);
+    }
+
+    14% {
+        background: linear-gradient(92.51deg, #DDE2E5 -59.44%, #E2E6E8 -27.47%, #F3F5F5 -9.48%, #E3E7EA 12.5%, #DDE2E5 37.52%);
+    }
+
+    28% {
+        background: linear-gradient(92.51deg, #DDE2E5 -44.44%, #E2E6E8 -12.47%, #F3F5F5 16.48%, #E3E7EA 27.5%, #DDE2E5 52.52%);
+    }
+
+    42% {
+        background: linear-gradient(92.51deg, #DDE2E5 -19.44%, #E2E6E8 13.47%, #F3F5F5 31.48%, #E3E7EA 52.5%, #DDE2E5 77.52%);
+    }
+
+    56% {
+        background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+    }
+    70% {
+        background: linear-gradient(92.51deg, #DDE2E5 31.44%, #E2E6E8 63.47%, #F3F5F5 81.48%, #E3E7EA 102.5%, #DDE2E5 127.52%);
+    }
+    85% {
+        background: linear-gradient(92.51deg, #DDE2E5 56.44%, #E2E6E8 88.47%, #F3F5F5 1066.48%, #E3E7EA 127.5%, #DDE2E5 152.52%);
+    }
+    100% {
+        background: linear-gradient(92.51deg, #DDE2E5 81.44%, #E2E6E8 113.47%, #F3F5F5 131.48%, #E3E7EA 152.5%, #DDE2E5 177.52%);
+    }
 }

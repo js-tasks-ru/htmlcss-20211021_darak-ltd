@@ -11,9 +11,8 @@
 }
 
 .tooltip__bubble {
-    display: none;
     padding: 13px 21px;
-    background: var(--black);
+    background: var(--blue-1);
     box-shadow: 0 2px 4px rgba(33, 36, 41, 0.05);
     border-radius: 10px;
 
@@ -27,14 +26,17 @@
     position: absolute;
     bottom: 100%;
     left: 50%;
+    opacity: 0;
     transform: translate(-50%, -14px);
     white-space: nowrap;
+
+    transition: opacity 200ms ease-in-out;
 }
 
 .tooltip__bubble:after {
     content: "";
     border: 14px solid transparent;
-    border-top: 12px solid var(--black);
+    border-top: 12px solid var(--blue-1);
     position: absolute;
     top: calc(50% - 2px);
     left: 50%;
@@ -42,5 +44,5 @@
 }
 
 .tooltip__trigger:hover ~ .tooltip__bubble {
-    display: block;
+    opacity: 1;
 }

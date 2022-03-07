@@ -9,6 +9,11 @@
 
     font-family: "Inter", Helvetica, serif;
     font-style: normal;
+
+    visibility: hidden;
+    overflow: hidden;
+
+    transition: visibility 200ms ease-in-out;
 }
 
 .modal__window{
